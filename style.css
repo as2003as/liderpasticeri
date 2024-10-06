@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(245, 250, 255);
+}
+header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+#name{
+    color: #5EAADC;
+}
+.image1{
+    width: 100%;
+}
+.banner-card{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 25%;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+
+}
+.all{
+    text-align: center;
+    justify-content: center;
+}
+.burger{
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 40%;
+}
+.ice{
+    width: 100px;
+    height: 80px;
+    padding-left: 55%;
+
+}
+.drinks{
+    width: 100px;
+    height: 100px;
+    padding-left: 40%;
+
+}
+.caffee{
+    width: 100px;
+    height: 100px;
+}
+
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+}
+.menu li{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.menu span{
+    width: 100%;
+}
+
+
+#scrollUpBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from the bottom */
+    right: 30px; /* Distance from the right */
+    z-index: 99; /* Ensure it’s on top of other content */
+    font-size: 18px; /* Increase font size */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #555; /* Button background */
+    color: white; /* Text color */
+    cursor: pointer; /* Mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    width: 35px;
+    height: 35px;
+  }
+  
+  #scrollUpBtn:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+       background-color: rgb(226, 223, 223);
+    }
+
+    .all{
+        text-align: center;
+        justify-content: center;
+    }
+    .burger{
+        width: 100px;
+        height: 60px;
+        padding-left: 0%;
+    }
+    .ice{
+        width: 100px;
+        height: 80px;
+        float: right;
+    
+    }
+    
+    
+
+}

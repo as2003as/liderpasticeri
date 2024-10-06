@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Lider Menu</title>
+</head>
+<body>
+    <!-- <button id="back-to-top-btn"><i class="fa-solid fa-angles-up"></i></button> -->
+    <header>
+       <h2 id="name">  LIDER PASTIÇERI  </h2> 
+         <img class="logo" src="logo.png">
+    </header>
+    
+<div class="all">
+
+    <br>
+    <h3>
+      <u>  USHQIMI  </u>
+    </h3>
+
+    
+<ul class="menu">
+    <li><span>Toste Pershute</span><span>2.30€</span></li>
+    <li><span>Toste Shtepie</span><span>2.30€</span></li>
+    <li><span>Pomfrit</span><span>1.00€</span></li>
+    <li><span>Sandwich Shtepie</span><span>2.50€</span></li>
+    <li><span>Sandwich Pershute</span><span>2.50€</span></li>
+    <li><span>Sandwich Sallame</span><span>2.50€</span></li>
+    <li><span>Nuggets 3</span><span>1.50€</span></li>
+    <li><span>Nuggets 6</span><span>2.50€</span></li>
+    <li><span>Nuggets 10</span><span>3.50€</span></li>
+    <li><span>Hamburger</span><span>2.50€</span></li>
+    
+</ul>
+</div>
+
+<img class="burger" src="burgerNBG.png">
+<div class="all">
+<h3>
+    <u>
+AKULLORE  </u>
+</h3>
+
+
+<ul class="menu">
+    <li><span>Karramel</span><span>0.50€</span></li>
+    <li><span>Fruta Mali</span><span>0.50€</span></li>
+    <li><span>Çokollate</span><span>0.50€</span></li>
+    <li><span>Vanille</span><span>0.50€</span></li>
+    <li><span>Dredheze</span><span>0.50€</span></li>
+    <li><span>Kiwi</span><span>0.50€</span></li>
+    <li><span>Straciatella</span><span>0.50€</span></li>
+  
+</ul>
+
+
+
+
+</div>
+<img class="ice" src="ice.png">
+<br> <br> <br> <br>
+<div class="all">
+<h3>
+    <u>  PIJE TE FTOHTA   </u>
+</h3>
+
+<ul class="menu">
+    <li><span>Coca Cola</span><span>1.00€</span></li>
+    <li><span>Coca Cola Zero</span><span>1.00€</span></li>
+    <li><span>Fanta Orange</span><span>1.00€</span></li>
+    <li><span>Fanta Tropical</span><span>1.00€</span></li>
+    <li><span>Red Bull</span><span>2.50€</span></li>
+    <li><span>Golden Eagle</span><span>1.00€</span></li>
+    <li><span>Schweppes</span><span>1.00€</span></li>
+    <li><span>Sprite</span><span>1.00€</span></li>
+    <li><span>Lacin</span><span>1.00€</span></li>
+    <li><span>Limonade</span><span>0.70€</span></li>
+    <li><span>Boronice</span><span>0.70€</span></li>
+    <li><span>Ice Tea</span><span>1.00€</span></li>
+    <li><span>Lengje Fructal</span><span>1.00€</span></li>
+    <li><span>Uje Natyral</span><span>1.00€</span></li>
+    <li><span>Uje Mineral</span><span>1.00€</span></li>
+    
+</ul>
+
+</div>
+<img class="drinks" src="drinks.png">
+
+<br>
+<div class="all">
+<h3>
+    <u>CAFFEE</u>
+</h3>
+
+<ul class="menu">
+    <li><span>Machiato</span><span>0.70€</span></li>
+    <li><span>Pa Plum</span><span>0.70€</span></li>
+    <li><span>Amerikane</span><span>0.70€</span></li>
+    <li><span>Capuchino</span><span>1.00€</span></li>
+    <li><span>Espresso</span><span>0.70€</span></li>
+    <li><span>Ness Classic</span><span>0.70€</span></li>
+    <li><span>Ness Vanille</span><span>0.70€</span></li>
+    <li><span>Bambi</span><span>1.00€</span></li>
+    <li><span>Çaj Filter</span><span>0.50€</span></li>
+    <li><span>Çaj Rusi</span><span>0.30€</span></li>
+    <li><span>Kafe Turke</span><span>1.00€</span></li>
+</ul>
+
+<img class="caffee" src="caffeeNBG.png">
+
+
+
+</div>
+
+
+<button id="scrollUpBtn" title="Go to top"><i class="fa-solid fa-angles-up"></i></button>
+<script>
+ 
+window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+  const scrollBtn = document.getElementById("scrollUpBtn");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollBtn.style.display = "block"; // Show the button
+  } else {
+    scrollBtn.style.display = "none"; // Hide the button
+  }
+}
+
+document.getElementById("scrollUpBtn").addEventListener("click", function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+</script>
+</body>
+</html>
